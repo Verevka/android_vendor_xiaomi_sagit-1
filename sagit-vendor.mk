@@ -18,19 +18,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/sagit/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/sagit/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/xiaomi/sagit/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/sagit/proprietary/bin/energy-awareness:system/bin/energy-awareness \
-    vendor/xiaomi/sagit/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/sagit/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/xiaomi/sagit/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/xiaomi/sagit/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/xiaomi/sagit/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/xiaomi/sagit/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/xiaomi/sagit/proprietary/bin/iop:system/bin/iop \
-    vendor/xiaomi/sagit/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/xiaomi/sagit/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/xiaomi/sagit/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/sagit/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/xiaomi/sagit/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/xiaomi/sagit/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/sagit/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/sagit/proprietary/bin/pm-service:system/bin/pm-service \
@@ -57,31 +55,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/etc/powerhint.xml:system/etc/powerhint.xml \
     vendor/xiaomi/sagit/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/xiaomi/sagit/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/xiaomi/sagit/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/xiaomi/sagit/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/xiaomi/sagit/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/xiaomi/sagit/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/xiaomi/sagit/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
     vendor/xiaomi/sagit/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
     vendor/xiaomi/sagit/proprietary/etc/firmware/a540_zap.b00:system/etc/firmware/a540_zap.b00 \
     vendor/xiaomi/sagit/proprietary/etc/firmware/a540_zap.b01:system/etc/firmware/a540_zap.b01 \
@@ -104,14 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/etc/firmware/ipa_fws.b03:system/etc/firmware/ipa_fws.b03 \
     vendor/xiaomi/sagit/proprietary/etc/firmware/ipa_fws.b04:system/etc/firmware/ipa_fws.b04 \
     vendor/xiaomi/sagit/proprietary/etc/firmware/ipa_fws.mdt:system/etc/firmware/ipa_fws.mdt \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
     vendor/xiaomi/sagit/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
     vendor/xiaomi/sagit/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/xiaomi/sagit/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/xiaomi/sagit/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/xiaomi/sagit/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/xiaomi/sagit/proprietary/etc/firmware/tfa98xx_aac.cnt:system/etc/firmware/tfa98xx_aac.cnt \
@@ -121,17 +92,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/xiaomi/sagit/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/xiaomi/sagit/proprietary/etc/permissions/com.xiaomi.sensor.xml:system/etc/permissions/com.xiaomi.sensor.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/sagit/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/sagit/proprietary/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:system/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:system/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
@@ -142,22 +110,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/xiaomi/sagit/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/xiaomi/sagit/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/xiaomi/sagit/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/sagit/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/sagit/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/sagit/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/xiaomi/sagit/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/xiaomi/sagit/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/xiaomi/sagit/proprietary/framework/com.xiaomi.sensor.jar:system/framework/com.xiaomi.sensor.jar \
     vendor/xiaomi/sagit/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/xiaomi/sagit/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/xiaomi/sagit/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/xiaomi/sagit/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/sagit/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/sagit/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
     vendor/xiaomi/sagit/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
     vendor/xiaomi/sagit/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/xiaomi/sagit/proprietary/lib/libcalapi.so:system/lib/libcalapi.so \
     vendor/xiaomi/sagit/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/sagit/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/sagit/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -165,27 +128,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
     vendor/xiaomi/sagit/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/xiaomi/sagit/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/xiaomi/sagit/proprietary/lib/libsensor_cal.so:system/lib/libsensor_cal.so \
-    vendor/xiaomi/sagit/proprietary/lib/libsensor_calJNI.so:system/lib/libsensor_calJNI.so \
     vendor/xiaomi/sagit/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/sagit/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/sagit/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/sagit/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/sagit/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/sagit/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-    vendor/xiaomi/sagit/proprietary/lib64/libcalapi.so:system/lib64/libcalapi.so \
     vendor/xiaomi/sagit/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/xiaomi/sagit/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/xiaomi/sagit/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
     vendor/xiaomi/sagit/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/xiaomi/sagit/proprietary/lib64/libqminvapi.so:system/lib64/libqminvapi.so \
-    vendor/xiaomi/sagit/proprietary/lib64/libsensor_cal.so:system/lib64/libsensor_cal.so \
-    vendor/xiaomi/sagit/proprietary/lib64/libsensor_calJNI.so:system/lib64/libsensor_calJNI.so \
     vendor/xiaomi/sagit/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
-    vendor/xiaomi/sagit/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/sagit/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/xiaomi/sagit/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/xiaomi/sagit/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/xiaomi/sagit/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/xiaomi/sagit/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/xiaomi/sagit/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
@@ -212,11 +168,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
@@ -231,8 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libactuator_ak7371_s5k3m3_semco.so:system/vendor/lib/libactuator_ak7371_s5k3m3_semco.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libactuator_centaur_imx386_ak7371_primax.so:system/vendor/lib/libactuator_centaur_imx386_ak7371_primax.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libactuator_centaur_s5k3m3_ak7371_primax.so:system/vendor/lib/libactuator_centaur_s5k3m3_ak7371_primax.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
@@ -251,68 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_4K_preview.so:system/vendor/lib/libchromatix_centaur_imx386_primax_4K_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_4K_video.so:system/vendor/lib/libchromatix_centaur_imx386_primax_4K_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_common.so:system/vendor/lib/libchromatix_centaur_imx386_primax_common.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_cpp_hfr_120.so:system/vendor/lib/libchromatix_centaur_imx386_primax_cpp_hfr_120.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_cpp_hfr_60.so:system/vendor/lib/libchromatix_centaur_imx386_primax_cpp_hfr_60.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_cpp_hfr_90.so:system/vendor/lib/libchromatix_centaur_imx386_primax_cpp_hfr_90.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_cpp_liveshot.so:system/vendor/lib/libchromatix_centaur_imx386_primax_cpp_liveshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_cpp_preview.so:system/vendor/lib/libchromatix_centaur_imx386_primax_cpp_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_cpp_snapshot.so:system/vendor/lib/libchromatix_centaur_imx386_primax_cpp_snapshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_centaur_imx386_primax_cpp_snapshot_hdr.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_cpp_video.so:system/vendor/lib/libchromatix_centaur_imx386_primax_cpp_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_cpp_video_hdr.so:system/vendor/lib/libchromatix_centaur_imx386_primax_cpp_video_hdr.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_default_preview.so:system/vendor/lib/libchromatix_centaur_imx386_primax_default_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_default_video.so:system/vendor/lib/libchromatix_centaur_imx386_primax_default_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_centaur_imx386_primax_hdr_snapshot_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_hdr_video_3a.so:system/vendor/lib/libchromatix_centaur_imx386_primax_hdr_video_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_hfr_120.so:system/vendor/lib/libchromatix_centaur_imx386_primax_hfr_120.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_hfr_120_3a.so:system/vendor/lib/libchromatix_centaur_imx386_primax_hfr_120_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_hfr_60.so:system/vendor/lib/libchromatix_centaur_imx386_primax_hfr_60.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_hfr_60_3a.so:system/vendor/lib/libchromatix_centaur_imx386_primax_hfr_60_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_hfr_90.so:system/vendor/lib/libchromatix_centaur_imx386_primax_hfr_90.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_hfr_90_3a.so:system/vendor/lib/libchromatix_centaur_imx386_primax_hfr_90_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_liveshot.so:system/vendor/lib/libchromatix_centaur_imx386_primax_liveshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_postproc.so:system/vendor/lib/libchromatix_centaur_imx386_primax_postproc.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_preview.so:system/vendor/lib/libchromatix_centaur_imx386_primax_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_snapshot.so:system/vendor/lib/libchromatix_centaur_imx386_primax_snapshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_snapshot_hdr.so:system/vendor/lib/libchromatix_centaur_imx386_primax_snapshot_hdr.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_video.so:system/vendor/lib/libchromatix_centaur_imx386_primax_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_video_hdr.so:system/vendor/lib/libchromatix_centaur_imx386_primax_video_hdr.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_zsl_preview.so:system/vendor/lib/libchromatix_centaur_imx386_primax_zsl_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_imx386_primax_zsl_video.so:system/vendor/lib/libchromatix_centaur_imx386_primax_zsl_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_1080p_preview.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_1080p_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_1080p_video.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_1080p_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_4k_preview.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_4k_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_4k_video.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_4k_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_common.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_common.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_hfr_120.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_hfr_120.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_hfr_60.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_hfr_60.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_hfr_90.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_hfr_90.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_liveshot.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_liveshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_preview.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_snapshot.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_snapshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_snapshot_downscale.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_snapshot_upscale.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_video.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_video_4k.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_cpp_video_4k.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_default_preview.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_default_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_default_video.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_default_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_hfr_120.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_hfr_120.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_hfr_60.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_hfr_60.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_hfr_90.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_hfr_90.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_hfr_120.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_hfr_120.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_hfr_60.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_hfr_60.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_hfr_90.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_hfr_90.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_liveshot.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_liveshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_preview.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_snapshot.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_snapshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_video.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_video_4k.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_isp_video_4k.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_postproc.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_postproc.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_zsl_preview.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_zsl_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_centaur_s5k3m3_primax_zsl_video.so:system/vendor/lib/libchromatix_centaur_s5k3m3_primax_zsl_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_4k_preview_3a.so:system/vendor/lib/libchromatix_imx268_4k_preview_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_4k_video_3a.so:system/vendor/lib/libchromatix_imx268_4k_video_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_common.so:system/vendor/lib/libchromatix_imx268_common.so \
@@ -340,37 +229,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_video_4k.so:system/vendor/lib/libchromatix_imx268_video_4k.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx268_zsl_preview_3a.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx268_zsl_video_3a.so:system/vendor/lib/libchromatix_imx268_zsl_video_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_4K_preview.so:system/vendor/lib/libchromatix_imx386_ofilm_4K_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_4K_video.so:system/vendor/lib/libchromatix_imx386_ofilm_4K_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_common.so:system/vendor/lib/libchromatix_imx386_ofilm_common.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx386_ofilm_cpp_hfr_120.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx386_ofilm_cpp_hfr_60.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx386_ofilm_cpp_hfr_90.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_imx386_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_cpp_preview.so:system/vendor/lib/libchromatix_imx386_ofilm_cpp_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_imx386_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx386_ofilm_cpp_snapshot_hdr.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_cpp_video.so:system/vendor/lib/libchromatix_imx386_ofilm_cpp_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx386_ofilm_cpp_video_hdr.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_default_preview.so:system/vendor/lib/libchromatix_imx386_ofilm_default_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_default_video.so:system/vendor/lib/libchromatix_imx386_ofilm_default_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx386_ofilm_hdr_snapshot_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_hdr_video_3a.so:system/vendor/lib/libchromatix_imx386_ofilm_hdr_video_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_hfr_120.so:system/vendor/lib/libchromatix_imx386_ofilm_hfr_120.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_hfr_120_3a.so:system/vendor/lib/libchromatix_imx386_ofilm_hfr_120_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_hfr_60.so:system/vendor/lib/libchromatix_imx386_ofilm_hfr_60.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_hfr_60_3a.so:system/vendor/lib/libchromatix_imx386_ofilm_hfr_60_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_hfr_90.so:system/vendor/lib/libchromatix_imx386_ofilm_hfr_90.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_hfr_90_3a.so:system/vendor/lib/libchromatix_imx386_ofilm_hfr_90_3a.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_liveshot.so:system/vendor/lib/libchromatix_imx386_ofilm_liveshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_postproc.so:system/vendor/lib/libchromatix_imx386_ofilm_postproc.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_preview.so:system/vendor/lib/libchromatix_imx386_ofilm_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_snapshot.so:system/vendor/lib/libchromatix_imx386_ofilm_snapshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_snapshot_hdr.so:system/vendor/lib/libchromatix_imx386_ofilm_snapshot_hdr.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_video.so:system/vendor/lib/libchromatix_imx386_ofilm_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_video_hdr.so:system/vendor/lib/libchromatix_imx386_ofilm_video_hdr.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_zsl_preview.so:system/vendor/lib/libchromatix_imx386_ofilm_zsl_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_ofilm_zsl_video.so:system/vendor/lib/libchromatix_imx386_ofilm_zsl_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_4K_preview.so:system/vendor/lib/libchromatix_imx386_semco_4K_preview.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_4K_video.so:system/vendor/lib/libchromatix_imx386_semco_4K_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_common.so:system/vendor/lib/libchromatix_imx386_semco_common.so \
@@ -402,37 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_video_hdr.so:system/vendor/lib/libchromatix_imx386_semco_video_hdr.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_zsl_preview.so:system/vendor/lib/libchromatix_imx386_semco_zsl_preview.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_zsl_video.so:system/vendor/lib/libchromatix_imx386_semco_zsl_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_1080p_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_1080p_preview_ad5816g.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_1080p_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_1080p_video_ad5816g.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_4k_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_4k_preview_ad5816g.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_4k_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_4k_video_ad5816g.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_common.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_common.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_hfr_120.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_hfr_60.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_hfr_90.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_liveshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_snapshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_snapshot_downscale.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_snapshot_upscale.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_video.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_cpp_video_4k.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_default_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_default_preview_ad5816g.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_default_video.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_default_video.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_default_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_default_video_ad5816g.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_120.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_120.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_120_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_120_ad5816g.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_60.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_60.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_60_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_60_ad5816g.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_90.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_90.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_90_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_hfr_90_ad5816g.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_liveshot.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_liveshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_postproc.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_postproc.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_preview.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_preview.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_snapshot.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_snapshot.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_video_4k.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_video_4k.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_zsl_preview_ad5816g.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_ofilm_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_ofilm_zsl_video_ad5816g.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_semco_1080p_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_semco_1080p_preview_ad5816g.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_semco_1080p_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_semco_1080p_video_ad5816g.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_s5k3m3_semco_4k_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_semco_4k_preview_ad5816g.so \
@@ -513,10 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmiracast.so:system/vendor/lib/libmiracast.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -535,12 +358,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_arcrtb_lib.so:system/vendor/lib/libmmcamera_arcrtb_lib.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_arcsoft_smoothtranstion_wrapper_lib.so:system/vendor/lib/libmmcamera_arcsoft_smoothtranstion_wrapper_lib.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_centaur_imx268_ofilm.so:system/vendor/lib/libmmcamera_centaur_imx268_ofilm.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_centaur_imx268_ofilm_eeprom.so:system/vendor/lib/libmmcamera_centaur_imx268_ofilm_eeprom.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_centaur_imx386_primax.so:system/vendor/lib/libmmcamera_centaur_imx386_primax.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_centaur_imx386_primax_eeprom.so:system/vendor/lib/libmmcamera_centaur_imx386_primax_eeprom.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_centaur_s5k3m3_primax.so:system/vendor/lib/libmmcamera_centaur_s5k3m3_primax.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_centaur_s5k3m3_primax_eeprom.so:system/vendor/lib/libmmcamera_centaur_s5k3m3_primax_eeprom.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
@@ -557,7 +374,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:system/vendor/lib/libmmcamera_hvx_grid_sum.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_imx268.so:system/vendor/lib/libmmcamera_imx268.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_imx386_ofilm.so:system/vendor/lib/libmmcamera_imx386_ofilm.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_imx386_semco.so:system/vendor/lib/libmmcamera_imx386_semco.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_isp_abf48.so:system/vendor/lib/libmmcamera_isp_abf48.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:system/vendor/lib/libmmcamera_isp_aec_bg_stats47.so \
@@ -609,7 +425,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_s5k3m3_ofilm.so:system/vendor/lib/libmmcamera_s5k3m3_ofilm.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_s5k3m3_semco.so:system/vendor/lib/libmmcamera_s5k3m3_semco.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sac_lib.so:system/vendor/lib/libmmcamera_sac_lib.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sagit_imx268_liteon.so:system/vendor/lib/libmmcamera_sagit_imx268_liteon.so \
@@ -626,7 +441,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_easy_hdr.so:system/vendor/lib/libmorpho_easy_hdr.so \
@@ -635,7 +449,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmorpho_panorama_gp.so:system/vendor/lib/libmorpho_panorama_gp.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmpbase.so:system/vendor/lib/libmpbase.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libois_bu63164.so:system/vendor/lib/libois_bu63164.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -664,11 +477,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsac.so:system/vendor/lib/libsac.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
@@ -709,7 +520,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/rfsa/adsp/libscveVideoSummary_skel.so:system/vendor/lib/rfsa/adsp/libscveVideoSummary_skel.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/rfsa/adsp/libvpp_frc.so:system/vendor/lib/rfsa/adsp/libvpp_frc.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/rfsa/adsp/libvpp_svc_skel.so:system/vendor/lib/rfsa/adsp/libvpp_svc_skel.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -745,22 +555,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -783,7 +586,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libcsm_data.so:system/vendor/lib64/libcsm_data.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
@@ -812,11 +614,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libmiracast.so:system/vendor/lib64/libmiracast.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libpdnotifier.so:system/vendor/lib64/libpdnotifier.so \
@@ -825,7 +622,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
@@ -855,11 +651,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libsensor_test.so:system/vendor/lib64/libsensor_test.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
@@ -878,7 +671,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
@@ -888,10 +680,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libgpustats \
-    libsdm-disp-apis \
     libthermalclient \
     libtime_genoff \
-    QtiTelephonyService \
+    libsdm-disp-apis \
     TimeService \
     datastatusnotification \
     embms \
